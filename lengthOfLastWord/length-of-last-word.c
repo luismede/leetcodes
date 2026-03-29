@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/length-of-last-word
 int lengthOfLastWord(char* s) {
   int count = 0;
   for (int i = strlen(s) - 1; i >= 0; i--) {

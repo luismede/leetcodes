@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/fizz-buzz/
 impl Solution {
     pub fn fizz_buzz(n: i32) -> Vec<String> {
         let mut arr = Vec::with_capacity(n as usize);
